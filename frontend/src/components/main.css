@@ -14,7 +14,7 @@
         }
 
     .logo img { 
-        width: 20%;
+        width: 40%;
     }
 .scrollcolor{
    
@@ -24,7 +24,7 @@
     color: white;
     top: 0;
     z-index: 999;
-    background-image: linear-gradient(to right, #9752ff, #5e93ff)
+    background-image: linear-gradient(to right,#ff9234, #fc6274 100%);
 }
 
 .scrollcolor .onlineAddmissionbtn{
@@ -259,14 +259,20 @@
 
     /* Sidebar */
     .sidebar {
-        overflow: hidden;
-        display: flex;
-        justify-content: space-between;
-        position: absolute;
+       
+        position: fixed;
         top: 0;
         right: 0;
-        width: 21%;
-        height: 100%;
+        
+        height: auto; /* Change from 100vh to auto */
+        max-height: 100vh; /* Ensures it doesn't overflow the screen */
+        background-color: rgba(87, 84, 84, 0.9);
+        color: white;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        padding: 7px;
+        overflow-y: auto; /* Enable scrolling inside sidebar */
     }
 
     .sidebar ul {
@@ -294,8 +300,9 @@
         position: fixed;
         top: 0;
         right: 0;
-        width: 22.5%;
+        width: 50%;
         height: 100%;
+        
         background-color: rgba(3, 3, 3, 0.5);
         backdrop-filter: blur(5px);
     }
@@ -1700,9 +1707,10 @@
     }
 
     @media (min-width: 440px) and (max-width: 765px) {
+      
         .social-media-logos{
             border: 2px solid red;
-            width: 50%;
+            
         }
        
         .logo-meanu-list{
@@ -1900,6 +1908,10 @@
 
 
     @media only screen and (max-width:440px) {
+        .social-media-logos{
+            padding: 2px;
+            width: 30%;
+        }
     .hamburger{
         border: 1px solid blue;
         display: flex;
@@ -1947,11 +1959,12 @@
         }
 
         .backdrop {
-            width: 50%;
+            width: 51%;
         }
 
         .sidebar {
-            width: 45%;
+            flex-direction: column-reverse;
+            width: 48%;
         }      
     
         .top-content {
@@ -2306,8 +2319,8 @@
     @media only screen and (max-width:380px) {
         .backdrop {
             z-index: 4;
-            display: block;
-            width: 50%;
+          
+            
         }
 
         .poster {
@@ -2337,10 +2350,7 @@
             display: block;
         }
 
-        .sidebar {
-
-            width: 45%;
-        }
+      
 
         .heading h1 {
 
