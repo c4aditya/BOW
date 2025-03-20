@@ -3,10 +3,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link, useNavigate } from "react-router-dom";
 import mainlogo from "../images/main-logo.png"
-import fb from "../images/facebook.png"
-import linkdin from "../images/linkedin.png"
-import insta from "../images/instagram.png"
-import wht from "../images/whatsapp.png"
+// import fb from "../images/facebook.png"
+// import linkdin from "../images/linkedin.png"
+// import insta from "../images/instagram.png"
+// import wht from "../images/whatsapp.png"
+import { CiLinkedin } from "react-icons/ci";
+import { CiFacebook } from "react-icons/ci";
+import { CiTwitter } from "react-icons/ci";
+import { FaWhatsapp } from "react-icons/fa";
+import { CiInstagram } from "react-icons/ci";
 
 function Navbar() {
   const [scroll , setScroll] = useState(false);
@@ -61,18 +66,25 @@ function Navbar() {
           <div className="social-media-logos">
           
             <div>
-              <img src={fb}/>
+              <a href="https://facebook.com">  <CiFacebook/></a>
+           
             </div>
             <div>
-            <img src={linkdin}/>
+              <a href="https://linkedin.com">  <CiLinkedin/></a>
+          
             </div>
             <div>
-              <img src={wht}/>
+              <a href="https://instagram.com"> <CiInstagram/></a>
+            
 
               </div>
-             
               <div>
-              <img src={insta}/>
+                <a href="https://twitter.com">  <CiTwitter/></a>
+            
+              </div>
+              <div>
+                <a href="https://whatsapp.com"> <FaWhatsapp/></a>
+            
               </div>
            
           </div>

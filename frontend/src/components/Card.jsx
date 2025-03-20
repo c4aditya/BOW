@@ -40,7 +40,7 @@ function Card({id, title, description, image }) {
           <p>
             {isExpanded ? description : truncatedDescription}
             {description.length > maxLength && !isExpanded && (
-              <span onClick={handleReadMore} style={{ color: 'blue', cursor: 'pointer' }}> Read More</span>
+              <span onClick={handleReadMore} style={{ color: '#BB2D3B', cursor: 'pointer' }}> Read More</span>
             )}
             {isExpanded && (
               <span onClick={handleShowLess} style={{ color: 'blue', cursor: 'pointer' }}> Show Less</span>

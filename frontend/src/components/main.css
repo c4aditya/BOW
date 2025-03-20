@@ -24,19 +24,26 @@
     color: white;
     top: 0;
     z-index: 999;
-    background-image: linear-gradient(to right,#ff9234, #fc6274 100%);
+   background-color: lightskyblue;
 }
 
 .scrollcolor .onlineAddmissionbtn{
     
    background-image: none;
-   background-color: white;
-   color: black;
+   background-color: #BB2D3B;
+   color: white;
 
 }
 
 .scrollcolor .meanu-list ul li a{
     color: white;
+}
+.social-media-logos a svg{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
 }
 
     
@@ -118,39 +125,33 @@
     }
     .info-top{
     
-     background-image: linear-gradient(to right, #9752ff, #5e93ff); ;
+    background-color: lightskyblue;
        
         display: flex;
         justify-content: space-between;
     }
 
-    .social-media-logos{       
-           
-        display: flex;
-        
+    .social-media-logos{        
+        display: flex;        
     }
 
 
-    .social-media-logos {
-   
+    .social-media-logos {   
      list-style: none;
-     width: 10%;
-  
+     width: 10%;  
      display: flex;
      justify-content: center;
      align-items: center;
      justify-items: center;
      padding: 3px;
      gap: 10px;
-     margin-left: 20px;
-    
-     
-    
+     margin-left: 20px;      
     }
-    .social-media-logos div{
-    
+
+    .social-media-logos div{    
         display: flex;
     }
+
     .social-media-logos  img{     
         width: 100%;
     }
@@ -171,9 +172,7 @@
     .online-addimission-top{
        padding: 5px;
         display: flex;
-        width: 50%;
-       
-      
+        width: 50%;     
     }
 
     .online-addimission-top button{
@@ -183,8 +182,6 @@
         border: none;
         border-radius: 3px;
     }
-
-
     .nav-bar-main-class {
         margin: auto;
         height: 50px;
@@ -197,10 +194,11 @@
         list-style: none;
     }
     .meanu-list ul li a {
-
-        color: #9554FF;
+        color:black;
+        font-weight: 600;
         font-size: 15px;
     }
+
     .button-main{
         display: flex;
     }
@@ -208,18 +206,20 @@
     .buttons {
         justify-content: center;
         justify-items: center;
-       align-items: center;
+        align-items: center;
         display: flex;
         gap: 10px;
     }
+
     .onlineClassbtn {       
         color: white;
         border-radius: 5px;       
         border: 1px solid blue;
         transition: transform 0.3s ease;
     }
+
     .onlineAddmissionbtn{
-        background-image: linear-gradient(to right, #9752ff, #5e93ff);
+       background-color: #D5161B;
         padding: 12px 11px;      
         color: white;
         border-radius: 5px;
@@ -262,8 +262,7 @@
        
         position: fixed;
         top: 0;
-        right: 0;
-        
+        right: 0;        
         height: auto; /* Change from 100vh to auto */
         max-height: 100vh; /* Ensures it doesn't overflow the screen */
         background-color: rgba(87, 84, 84, 0.9);
@@ -301,8 +300,7 @@
         top: 0;
         right: 0;
         width: 50%;
-        height: 100%;
-        
+        height: 100%;        
         background-color: rgba(3, 3, 3, 0.5);
         backdrop-filter: blur(5px);
     }
@@ -317,7 +315,6 @@
     /* home start */
     .main-content {
         border: 2px solid #F1F7F7;
-
         background-color: #F1F7F7;
     }
 
@@ -388,7 +385,7 @@
     .enquiry {
         .btn {
             font-size: 20px;
-            background-image: linear-gradient(to right, #9752ff, #5e93ff);
+            background-color:#BB2D3B ;
             border-radius: 5px;
             border: none;
             color: white;
@@ -398,13 +395,13 @@
         }
 
         .btn:hover {
-            background-color: #BB2D3B;
+            background-color: #D5161B;
         }
     }
 
     .text {
-        color: #7054E6
-    }
+        color: #BB2D3B;
+        }
 
     @keyframes fadeIn {
         from {
@@ -517,7 +514,7 @@
 
     .content h2 {
         font-size: 16px;
-        color: blue;
+        color: #BB2D3B;
         font-weight: 800;
         margin-top: 10px;
     }
@@ -538,7 +535,7 @@
         font-size: 16px;
         width: 100%;
         padding: 10px;
-        background-image: linear-gradient(to right, #ff9234, #fc6274 100%);
+        background-color: #BB2D3B;
         color: white;
         text-align: center;
         cursor: pointer;
@@ -575,8 +572,7 @@
 
             font-weight: bold;
             font-size: 2rem;
-            color: skyblue;
-            color: #7054E6
+            color:#91282B;
         }
 
         h1 {
@@ -589,12 +585,11 @@
 
     .icon-with-text {
         background-color: white;
-
         width: 100px;
         border-radius: 100%;
         padding: 17px;
         text-align: center;
-        border: 2px solid blue;
+        border: 2px solid lightskyblue;
 
 
     }
@@ -649,8 +644,9 @@
 
             font-weight: bold;
             font-size: 2rem;
-            color: skyblue;
-            color: #7054E6
+            color: #91282b;
+         
+            
         }
 
         h1 {
@@ -683,7 +679,7 @@
         height: 150px;
         justify-content: space-around;
         align-items: center;
-        background-image: linear-gradient(to right, #9752ff, #5e93ff);
+        background-color: lightskyblue;
         padding: 20px;
         color: white;
 
@@ -786,13 +782,13 @@
         text-align: justify;
 
         p {
-            color: #929393;
+            
             width: auto;
             line-height: 1.3;
         }
 
         h1 {
-            color: #7054E6;
+            color: #D5161B;
         }
 
 
@@ -977,7 +973,6 @@
         margin-left: 29px;
         width: 91%;
         padding: 15px;
-
         background-image: linear-gradient(to right, #9752ff, #5e93ff);
         color: white;
         border: none;
@@ -1034,16 +1029,15 @@
 
     .top-feather {
         margin: 2% 0% 0% 0%;
-        background-image: linear-gradient(to right, #9752ff, #5e93ff);
+        background-color: lightskyblue;
 
     }
 
     .feather-imside-width {
-        background-image: linear-gradient(to right, #9752ff, #5e93ff);
+    
         margin-top: 2%;
         display: flex;
-        width: 85%;
-
+        width: 85%; 
         margin: auto;
         justify-content: space-between;
 
@@ -1056,7 +1050,6 @@
     .feathers-images {
         margin-top: 5%;
         margin-bottom: 5%;
-
         display: flex;
         align-items: center;
     }
@@ -1091,7 +1084,6 @@
     .video-section {
         justify-content: space-between;
         width: 85%;
-
         display: flex;
         margin: 2% auto 2% auto;
     }
@@ -1155,10 +1147,8 @@
 
     .footer {
 
-        background-image: url(https://static.canva.com/web/images/e733916c4616f5baa19098cc2844369b.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        background-color: rgb(155, 55, 55);
+      
         color: #fff;
 
     }
@@ -1184,10 +1174,8 @@
     .socialmedia {
         display: flex;
         flex-direction: row;
-        gap: 7px;
-       
-        justify-content: center;
-   
+        gap: 7px;       
+        justify-content: center;   
         align-items: center;
       
 
@@ -1228,17 +1216,12 @@
         text-decoration: none;
     }
 
-    .page-links ul{
-        
-        gap: 10px;
-        
+    .page-links ul{        
+        gap: 10px;        
         text-decoration: none;
-        color: white;
-        
-        
+        color: white;       
         display: grid;
-        grid-template-columns: repeat(2 ,1fr);
-        
+        grid-template-columns: repeat(2 ,1fr);        
         margin-top: 10px;
         
     }
@@ -1249,8 +1232,7 @@
         list-style: none;
     }
 
-    .page-links ul li a{
-    
+    .page-links ul li a{    
         list-style: none;
         color: white;
     }
@@ -1272,15 +1254,11 @@
     }
 
     .contact_details p {
-
         font-size: 16px;
         margin-top: 7px;
         margin-left: 5px;
-
-
         color: white;
         width: 100%;
-
         line-height: 1.3;
     }
 
