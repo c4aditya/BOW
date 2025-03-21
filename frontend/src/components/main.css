@@ -36,7 +36,7 @@
 }
 
 .scrollcolor .meanu-list ul li a{
-    color: white;
+    color: rgb(75, 55, 55);
 }
 .social-media-logos a svg{
     color: black;
@@ -581,6 +581,11 @@
         }
 
 
+    }
+
+    .course-button-enroll{
+        background-image: none !important;
+        background-color:#91282b !important;
     }
 
     .icon-with-text {
@@ -1147,9 +1152,9 @@
 
     .footer {
 
-        background-color: rgb(155, 55, 55);
+        background-color: lightskyblue;
       
-        color: #fff;
+        color: #91282b;
 
     }
 
@@ -1208,7 +1213,7 @@
     .page-links{
         
         width: 50%;
-        color: white;
+       
 
     }
 
@@ -1234,7 +1239,7 @@
 
     .page-links ul li a{    
         list-style: none;
-        color: white;
+        color: rgb(75, 55, 55);
     }
 
    
@@ -1257,7 +1262,7 @@
         font-size: 16px;
         margin-top: 7px;
         margin-left: 5px;
-        color: white;
+        color: rgb(75, 55, 55);
         width: 100%;
         line-height: 1.3;
     }
@@ -1286,7 +1291,7 @@
         font-size: 14px;
         /* align-items: center; */
         line-height: 14px;
-        color: white;
+        color: rgb(75, 55, 55);
         font-weight: 600;
         /* text-align: justify; */
     }
@@ -1473,6 +1478,9 @@
             left: 50%;
         }
 
+        .main-containet-course{
+            flex-direction: row;
+        }
 
 
 
@@ -1684,17 +1692,14 @@
 
     }
 
-    @media (min-width: 440px) and (max-width: 765px) {
+    @media (min-width: 600px) and (max-width: 765px) {
       
-        .social-media-logos{
-            border: 2px solid red;
-            
-        }
+     
        
         .logo-meanu-list{
             display: block;
        
-            width: 80%;
+            width: 20%;
         }
         .meanu-list ul{
          
@@ -1885,15 +1890,23 @@
 
 
 
-    @media only screen and (max-width:440px) {
+    @media only screen and (max-width:600px) {
+            
         .social-media-logos{
             padding: 2px;
             width: 30%;
+          
         }
+
     .hamburger{
         border: 1px solid blue;
         display: flex;
     }
+   
+   .heading h1 {
+  
+    width: 100%;
+   }
   
    .logo img{
     width: 100%;
@@ -1903,21 +1916,28 @@
     }
 
         .meanu-list ul li {
+            
             display: none;
             list-style: none;
+         
         }
 
         .sidebar li {
+            
+            overflow-y: auto;
+            font-size: 25px;
+            margin: auto;         
+            width: 80%;           
             display: block;
         }
 
-        .sidebar ul {
-            z-index: 5;
-        }
+       
 
         .backdrop {
+           
             display: block;
             z-index: 4;
+            width: 100%;
         }
 
         .poster {
@@ -1936,13 +1956,16 @@
 
         }
 
-        .backdrop {
-            width: 51%;
-        }
+        
 
         .sidebar {
+          
             flex-direction: column-reverse;
-            width: 48%;
+            width: 100%;
+            height: 100%;
+            justify-content: start;
+          
+          
         }      
     
         .top-content {
@@ -2044,14 +2067,12 @@
         }
         .main-content-class {
             width: 100%;
-
             h1 {
-
                 margin-top: 2%;
                 color: #7054E6;
                 text-align: center;
-            }
-        }
+            }  
+              }
 
         .row {
             display: flex;
@@ -2060,7 +2081,6 @@
         }
 
         .image-section {
-
             display: flex;
             justify-content: center;
             align-items: center;
@@ -2242,64 +2262,13 @@
         }
     }
 
-    @media screen and (max-width: 550px) {
-        .sb_footer-heading h1 {
-            font-size: 34px;
-            line-height: 42px;
-        }
+  
 
-        .sb_footer-links div {
-            margin: 1rem 0;
-            line-height: 20px;
-        }
+  
 
-        .sb_footer-btn p {
-            font-size: 14px;
-            line-height: 20px;
-        }
-
-        .sb_footer-below {
-            flex-direction: column;
-            justify-content: left;
-            position: relative;
-        }
-
-        .sb_footer-below-links {
-            flex-direction: column;
-            position: absolute;
-            left: 0;
-            top: 23px;
-        }
-
-        .sb_footer-below-links p {
-            margin-left: 0rem;
-            margin-top: 1rem;
-
-        }
-    }
-
-    @media screen and (max-width: 400px) {
-        .sb_footer-heading h1 {
-            font-size: 27px;
-            line-height: 38px;
-
-        }
-
-    }
-
-    @media screen and (max-width: 850px) {
-        .sb_footer-heading h1 {
-            font-size: 44px;
-            line-height: 50px;
-        }
-    }
 
     @media only screen and (max-width:380px) {
-        .backdrop {
-            z-index: 4;
-          
-            
-        }
+      
 
         .poster {
             height: 200px;

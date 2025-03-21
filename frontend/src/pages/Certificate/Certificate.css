@@ -95,7 +95,7 @@ height: auto;
 
 .submitbtn button{
   /* background: #000; */
-  background-image: linear-gradient(to right, #ff9234, #fc6274 100%);
+background-color:#91282B;
 color: #fff;
 width: 15%;
 font-weight: 600;
