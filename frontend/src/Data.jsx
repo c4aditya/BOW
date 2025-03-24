@@ -2,7 +2,7 @@ import air from "./images/airH.jpeg"
 import reEnginnering from "./images/resoluction.jpeg"
 import hotel from "./images/hotelmanagement.jpeg";
 import shipment from "./images/shipment.jpeg"
-import airportmanagement  from "./images/airPortManagement.jpeg"
+import airportmanagement  from "./images/airPortManagement.jpg"
 import aviation from "./images/aviation.jpeg"
 const data = [
     {

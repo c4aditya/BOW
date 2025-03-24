@@ -3,19 +3,21 @@
  
 }
 
-.course-box-content {
- 
+.course-box-content { 
     width: 83%;  /* Full width for the box */
     margin: auto;
     box-sizing: border-box;
     overflow-x: hidden;  /* Prevent horizontal overflow */
+}
+.course-content h1{
+    color: #91282B;
+    font-size: 1.7rem;
 }
 
 .main-containet-course {
     margin-top: 10%;
     display: flex;
     justify-content: space-between;
-
     overflow-x: hidden;  /* Prevent horizontal overflow */
     margin-bottom: 20px; /* Optional: Add some space between courses */
 }
@@ -24,7 +26,6 @@
     justify-content: center;
     flex-direction: column;
     display: flex;
-
     width: 48%;
     box-sizing: border-box;
 }
@@ -32,17 +33,12 @@
    
     flex-direction: column;
     justify-content: space-between;
-    display: flex;
-    
+    display: flex;    
     width: 48%;
     box-sizing: border-box;
 }
 
-.video-players {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
+
 
 .course-content {
    
@@ -55,13 +51,12 @@
 }
 
 .course-button-enroll{
-    border:none;
-    
+    border:none;    
     background-image: linear-gradient(to right, #9752ff, #5e93ff);
     color: white;
     border-radius: 5px;
-    padding: 14px;
-    font-size: 20px;
+    padding: 8px;
+    font-size: 17px;
  
 }
 

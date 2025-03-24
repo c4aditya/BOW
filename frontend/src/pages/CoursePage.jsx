@@ -1,5 +1,11 @@
 import React from "react";
-import video from "../images/videos.mp4";
+
+import aviation from "../images/aviation.jpeg"
+import renginerringimg from "../images/resoluction.jpeg"
+import airhostest from "../images/airH.jpeg";
+import hotelmanagement from "../images/hotelmanagement.jpeg";
+import shipment from "../images/shipment.jpeg";
+import airPortManagement from "../images/airPortManagement.jpg";
 import "../pages/coursePage.css";
 import posterImg from "../images/coursePoster.jpg";
 import { useNavigate } from "react-router-dom";
@@ -23,30 +29,14 @@ function CoursePage() {
         <div className="course-box-content">
           <div className="main-containet-course ">
             <div className="course-video">
-              <video
-                src={video}
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="video-players"
-              >
-                Your browser does not support the video tag.
-              </video>
+              <img src={renginerringimg}/>
             </div>
             <div className="course-content">
             
             
               <h1>1 - REENGINEERING PROGRAM</h1>
               <p>
-                We offer continuous support and coaching to help you grow and
-                reach your full potential. Our tailored development plans are
-                designed to meet your unique needs, ensuring your personal and
-                professional growth. Through self-discovery and assessment, we
-                empower you to understand your strengths and areas for
-                improvement. With a clear, structured approach, we guide you
-                towards achieving your goals. Ready to take the next step?
-                Enquire now!
+              We offer continuous support and coaching to help you grow and reach your full potential. Our tailored development plans are designed to meet your unique needs, ensuring your personal and professional growth. Through self-discovery and assessment, we empower you to understand your strengths and areas for improvement. We provide hands-on guidance and strategic insights to help you navigate challenges and seize new opportunities. Our holistic approach fosters resilience, confidence, and a growth mindset, enabling you to thrive in every aspect of your journey.
               </p>
            
               <button
@@ -63,16 +53,7 @@ function CoursePage() {
             <div className="course-content">
               <h1>2 - AIR HOSTESS</h1>
               <p>
-                Enquire now to enhance your career with essential customer
-                service skills that will set you apart in any industry. Our
-                program also covers critical safety and emergency procedures,
-                ensuring you're well-prepared to handle any situation with
-                confidence. With professional training from industry experts,
-                you'll gain the expertise needed to excel in your role. This
-                comprehensive approach will give you the tools to provide
-                exceptional service while maintaining high standards of safety
-                and professionalism. Take the next step in advancing your career
-                and mastering key workplace skills
+              Enquire now to enhance your career with essential customer service skills that will set you apart in any industry. Our program also covers critical safety and emergency procedures, ensuring you're well-prepared to handle any situation with confidence. With professional training from industry experts, you'll gain the expertise needed to excel in your role. This comprehensive approach will give you the tools to provide exceptional service, improve problem-solving abilities, and build strong client relationships. Additionally, you'll develop effective communication and leadership skills.
               </p>
               <button
                 onClick={() => enrolHandler("Air Hostess")}
@@ -83,31 +64,13 @@ function CoursePage() {
             </div>
 
             <div className="course-video">
-              <video
-                src={video}
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="video-players"
-              >
-                Your browser does not support the video tag.
-              </video>
+             <img src={airhostest}/>
             </div>
           </div>
 
           <div className="main-containet-course">
             <div className="course-video">
-              <video
-                src={video}
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="video-players"
-              >
-                Your browser does not support the video tag.
-              </video>
+             <img src={hotelmanagement}/>
             </div>
             <div className="course-content">
               <h1>3 - HOTEL MANAGEMENT COURSE</h1>
@@ -154,31 +117,13 @@ function CoursePage() {
             </div>
 
             <div className="course-video">
-              <video
-                src={video}
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="video-players"
-              >
-                Your browser does not support the video tag.
-              </video>
+              <img src={shipment}/>
             </div>
           </div>
 
           <div className="main-containet-course">
             <div className="course-video">
-              <video
-                src={video}
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="video-players"
-              >
-                Your browser does not support the video tag.
-              </video>
+              <img src={airPortManagement}/>
             </div>
             <div className="course-content">
               <h1>5 - AIRPORT MANAGEMENT</h1>
@@ -227,18 +172,96 @@ function CoursePage() {
             </div>
 
             <div className="course-video">
-              <video
-                src={video}
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="video-players"
-              >
-                Your browser does not support the video tag.
-              </video>
+              <img src={aviation}/>
             </div>
           </div>
+       
+          
+          <div className="main-containet-course ">
+            <div className="course-video">
+              <img src={renginerringimg}/>
+            </div>
+            <div className="course-content">
+            
+            
+              <h1>1 - REENGINEERING PROGRAM</h1>
+              <p>
+              We offer continuous support and coaching to help you grow and reach your full potential. Our tailored development plans are designed to meet your unique needs, ensuring your personal and professional growth. Through self-discovery and assessment, we empower you to understand your strengths and areas for improvement. We provide hands-on guidance and strategic insights to help you navigate challenges and seize new opportunities. Our holistic approach fosters resilience, confidence, and a growth mindset, enabling you to thrive in every aspect of your journey.
+              </p>
+           
+              <button
+                onClick={() => enrolHandler("Reengineering Program")}
+                className="course-button-enroll"
+              >
+                Enroll Now
+              </button>
+              
+            </div>
+          </div>
+
+
+          <div className="main-containet-course">
+            <div className="course-content">
+              <h1>2 - AIR HOSTESS</h1>
+              <p>
+              Enquire now to enhance your career with essential customer service skills that will set you apart in any industry. Our program also covers critical safety and emergency procedures, ensuring you're well-prepared to handle any situation with confidence. With professional training from industry experts, you'll gain the expertise needed to excel in your role. This comprehensive approach will give you the tools to provide exceptional service, improve problem-solving abilities, and build strong client relationships. Additionally, you'll develop effective communication and leadership skills.
+              </p>
+              <button
+                onClick={() => enrolHandler("Air Hostess")}
+                className="course-button-enroll"
+              >
+                Enroll Now
+              </button>
+            </div>
+
+            <div className="course-video">
+             <img src={airhostest}/>
+            </div>
+          </div>
+
+          <div className="main-containet-course ">
+            <div className="course-video">
+              <img src={renginerringimg}/>
+            </div>
+            <div className="course-content">
+            
+            
+              <h1>1 - REENGINEERING PROGRAM</h1>
+              <p>
+              We offer continuous support and coaching to help you grow and reach your full potential. Our tailored development plans are designed to meet your unique needs, ensuring your personal and professional growth. Through self-discovery and assessment, we empower you to understand your strengths and areas for improvement. We provide hands-on guidance and strategic insights to help you navigate challenges and seize new opportunities. Our holistic approach fosters resilience, confidence, and a growth mindset, enabling you to thrive in every aspect of your journey.
+              </p>
+           
+              <button
+                onClick={() => enrolHandler("Reengineering Program")}
+                className="course-button-enroll"
+              >
+                Enroll Now
+              </button>
+              
+            </div>
+          </div>
+
+
+          <div className="main-containet-course">
+            <div className="course-content">
+              <h1>2 - AIR HOSTESS</h1>
+              <p>
+              Enquire now to enhance your career with essential customer service skills that will set you apart in any industry. Our program also covers critical safety and emergency procedures, ensuring you're well-prepared to handle any situation with confidence. With professional training from industry experts, you'll gain the expertise needed to excel in your role. This comprehensive approach will give you the tools to provide exceptional service, improve problem-solving abilities, and build strong client relationships. Additionally, you'll develop effective communication and leadership skills.
+              </p>
+              <button
+                onClick={() => enrolHandler("Air Hostess")}
+                className="course-button-enroll"
+              >
+                Enroll Now
+              </button>
+            </div>
+
+            <div className="course-video">
+             <img src={airhostest}/>
+            </div>
+          </div>
+        
+        
         </div>
       </div>
     </div>

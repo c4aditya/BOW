@@ -55,7 +55,11 @@ function App() {
                     />
                   ))}
                 </div>
+             <div className='seemore-course'>
+             <button className='seemore-btn'>See More</button>
               </div>
+              </div>
+             
               <Feather /> 
               <MoreAboutUs />
             </div>

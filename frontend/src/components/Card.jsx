@@ -48,7 +48,10 @@ function Card({id, title, description, image }) {
           </p>
           <button onClick={detailhandler} className="btn-en">Course Details </button>
         </div>
+    
       </div>
+
+    
       
      
     </div>

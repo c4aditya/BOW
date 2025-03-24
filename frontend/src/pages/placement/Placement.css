@@ -66,7 +66,7 @@
 }
 .about-place-text h3 {
     font-size: 1.5rem;
-    color: #7054E6;
+    color: #91282b;
     margin-bottom: 15px;
   }
   .about-place-text h1{
@@ -109,7 +109,7 @@
     font-size: 1.8rem;
     /* padding-bottom: 10px; */
     font-weight: 600;
-    color: black;
+    color: #91282b;
     /* margin-top: 22px;
     margin-bottom: 22px; */
     margin: 22px 0px;
@@ -134,7 +134,7 @@
   .our-placement-text span {
     /* margin-right: 3px; */
     font-size: 1.2rem;
-    color:orangered;
+    color:#91282b;
     font-weight: 600;
   }
   /* .icon-colored {
@@ -145,7 +145,7 @@
   } */
   .course-related-text span {
     margin-right: 3px;
-    color:#01c0cb;
+    color:#91282b;
     font-weight: 600;
   }
   
@@ -187,11 +187,11 @@
   }
   
   .placement-section--responsive {
-    border-left: 5px solid #4caf50;
+    border-left: 5px solid #91282b;
   }
   
   .placement-section--secure {
-    border-left: 5px solid #2196f3;
+    border-left: 5px solid #91282b;
   }
   
   .placement-image-wrapper {
@@ -222,7 +222,7 @@
   .placement-title  {
     font-size: 1.6rem;
     margin-bottom: 12px;
-    color: #7054E6;
+    color: #91282b;
     /* font-size: 1.8rem; */
   }
  
@@ -243,7 +243,13 @@
     transition: color 0.3s ease;
   } */
 
-  
+  .placement-item-cc{
+    border: 1px solid #91282b;
+  }
+
+  .placement-item-cc h4{
+    color: #91282b !important;
+  }
  /* Media Queries */
 @media (max-width: 768px) {
     .about-place-container {

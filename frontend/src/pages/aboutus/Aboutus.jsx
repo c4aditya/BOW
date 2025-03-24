@@ -53,11 +53,11 @@ const Aboutus= () => {
             <div className="why-us-text">
               <h3>Awards Winner Support Center</h3>
               <p>
-                At  BOW Aviation Training Institute, we don’t just teach – we ignite curiosity, foster creativity, and promote innovation. 
+                At  Birds of the world Aviation Training Institute, we don’t just teach – we ignite curiosity, foster creativity, and promote innovation. 
                 Our mission is to bridge the gap between theoretical knowledge and practical application, equipping learners with the tools they need to thrive in multiple industries.
                 Since our inception, we have been committed to nurturing entrepreneurial spirit, encouraging fresh ideas.
                 <br />
-                BOW Aviation Training Institute is more than just an institute; it's a community where students grow, dream, and achieve. 
+                Birds of the wrold Aviation Training Institute is more than just an institute; it's a community where students grow, dream, and achieve. 
                 Here, we believe in empowering every learner to turn their aspirations into reality through hands-on learning, mentorship, and a deep understanding of the evolving professional world.
                 Welcome to  BOW Aviation Training Institute – where your journey to success begins.
               </p>
@@ -76,7 +76,7 @@ const Aboutus= () => {
             <div className="why-us-text">
               <h3>Our Story</h3>
               <p>
-                It is a long-established fact that you should read. The best Diploma in multiple Courses like Diploma in Aviation, Banking & finance, Information Technology and Merchant Navy, Fire & Safety Training Institute in INDIA. BOW Aviation Training Institute is managed by a team of highly skilled professionals. 
+                It is a long-established fact that you should read. The best Diploma in multiple Courses like Diploma in Aviation, Banking & finance, Information Technology and Merchant Navy, Fire & Safety Training Institute in INDIA. Birds of the world Aviation Training Institute is managed by a team of highly skilled professionals. 
                 <br />
                 We motivate the students to perform any challenging situations which helps them to achieve the pinnacle in their professional life. 
                 We impart the best of training methods about courteous customer service, grooming skills, presentation skills, and also about the quality of education which is required to excel in the Aviation, IT, Banking, Merchant-Navy and the Corporate sectors.
@@ -91,7 +91,7 @@ const Aboutus= () => {
             <h2>Message from Chairman</h2>
             <p>
               Education is more than just acquiring knowledge—it’s about building confidence, fostering innovation, and shaping a brighter future. 
-              BOW Aviation Training Institute, we’re committed to walking alongside you as you unlock your potential, overcome challenges, and achieve your ambitions.
+              Birds of the world Aviation Training Institute, we’re committed to walking alongside you as you unlock your potential, overcome challenges, and achieve your ambitions.
             </p>
           </div>
         </div>
@@ -127,11 +127,9 @@ const Aboutus= () => {
           <p>Find internships and job opportunities tailored to your diploma.</p>
         </div>
       </div>
-         {/* <Counter />  */}
-        
-        {/* <ApplicationContainer/> */}
-        {/* <TestimonialSlider /> */}
-        {/* <Footer /> */}
+         <div className='our-instructors'>
+
+         </div>
       </div>
     );
   }

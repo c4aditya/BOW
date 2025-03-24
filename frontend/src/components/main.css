@@ -3,7 +3,9 @@
         padding: 0px;
         margin: 0px;
         font-family: 'Slabo 27px', sans-serif;
+        
     }
+   
 
     /* loding spinner  */
     .logo {
@@ -247,7 +249,7 @@
 
     /* marque ad */
     .ad {
-        background-color: #7b73ff;
+        background-color: #91282b;
         box-sizing: border-box;
         color: #fff;
         padding-top: 0.4rem;
@@ -458,7 +460,19 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding-bottom: 10%;
+        padding-bottom: 4%;
+    }
+
+    .seemore-btn{
+        cursor: pointer;
+        background-color: #91282B;
+        color: white;
+        border: none;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 800;
+        width: 20%;
+        border-radius: 5px;
     }
 
     /* Grid Container for Cards */
@@ -686,7 +700,7 @@
         align-items: center;
         background-color: lightskyblue;
         padding: 20px;
-        color: white;
+        color: black;
 
     }
 
@@ -756,8 +770,14 @@
     }
 
 
-
-    .row .image-section {
+  .seemore-course{
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    display: flex
+;
+  }
+     .row .image-section {
 
         /* border: 2px solid red; */
        
@@ -1477,10 +1497,26 @@
 
             left: 50%;
         }
+        .course-box-content {
+            width: 90%;
+        }
 
         .main-containet-course{
-            flex-direction: row;
+            gap: 20px;
+          flex-direction:row-reverse;
         }
+        .course-content h1{
+            color: #91282b;
+            font-size: 1.5rem;
+        }
+
+        .course-video{
+           
+            width: 50%;
+        }
+
+
+
 
 
 

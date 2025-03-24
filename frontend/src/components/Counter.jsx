@@ -38,7 +38,7 @@ const CounterItem = ({ number, label, suffix }) => {
       } else {
         setDisplayNumber(Math.round(start));
       }
-    }, 17);
+    }, 100);
 
     return () => clearInterval(interval);
   }, [number]);

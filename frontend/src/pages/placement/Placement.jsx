@@ -33,17 +33,17 @@ const Placement = () => {
           <div className="about-place-text">
           <h3>ABOUT PLACEMENT</h3>
           <h1>Our Placement Support</h1>
-          <p>At  BOW Aviation Training Institute, we are dedicated to not only providing exceptional education but also ensuring that our students have the tools and support they need to launch successful careers.
+          <p>At  Birds of the world  Aviation Training Institute, we are dedicated to not only providing exceptional education but also ensuring that our students have the tools and support they need to launch successful careers.
               Our comprehensive Placement Support services are designed to bridge the gap between academic learning, equipping our students with the resources and guidance to excel in their chosen fields.</p>
-            <p>At  BOW Aviation Training Institute, our commitment to your success extends beyond the classroom. We are dedicated to providing you with the resources, support, and opportunities needed to achieve your career goals and make a meaningful impact in your chosen field.
+            <p>At  Birds of the world Aviation Training Institute, our commitment to your success extends beyond the classroom. We are dedicated to providing you with the resources, support, and opportunities needed to achieve your career goals and make a meaningful impact in your chosen field.
                Explore our Placement Support services and take the next step towards a rewarding career with confidence.</p>
              </div>
         </div>
       </div>
       <div className="place-detail">
           <div className="place-detail-text">
-            <h4>   BOW Aviation Training Institute: Comprehensive Placement Support Across All Courses</h4>
-            <p>At  BOW Aviation Training Institute, we understand that securing a job after completing your diploma can be one of the most crucial aspects of your education journey.
+            <h4>Birds of the world Aviation Training Institute: Comprehensive Placement Support Across All Courses</h4>
+            <p>At  Birds of the world Aviation Training Institute, we understand that securing a job after completing your diploma can be one of the most crucial aspects of your education journey.
                That's why we are dedicated to offering unparalleled placement support and assistance across all our diploma programs. Whether you’ve pursued a Diploma in Aviation, Air Hostess, IT, Airport Management, Hotel Management, Fire and Safety, Cabin Crew, Cruise Ship, Tourism Management, Tourism Studies, Merchant Navy, or Banking & Finance, our comprehensive placement services are designed to ensure you step confidently into your chosen career path.</p>
           </div>
         </div>
@@ -54,8 +54,8 @@ const Placement = () => {
             <p><span>1. Personalized Career Counseling:</span><br></br>Our expert career counselors provide one-on-one guidance tailored to your specific course and career interests. They help you identify your strengths, understand the job market, and set realistic career goals. Whether you're aiming for a role in aviation, hotel management, or any other field, our counselors offer personalized advice to align your career path with your ambitions.</p>
             <p><span>2. Resume and Cover Letter Assistance:</span><br></br>A strong resume and cover letter are crucial for making a great first impression. Our team helps you craft professional and compelling resumes and cover letters that highlight your skills, qualifications, and experiences. We ensure that your documents are tailored to the industry you’re entering, making you stand out to potential employers.</p>
             <p><span>3. Interview Preparation:</span><br></br>Interviews can be daunting, but our comprehensive preparation services are here to help. We conduct mock interviews to help you practice and refine your responses, providing feedback to improve your performance. Our goal is to ensure you’re confident and well-prepared for real-world interviews.Personalized feedback to refine your responses and presentation.
-Tips and techniques to handle even the toughest questions.
-</p>
+              Tips and techniques to handle even the toughest questions.
+             </p>
             <p><span>4. Networking Opportunities:</span><br></br>Networking is a powerful tool in job searching. SGACE Academy connects you with industry professionals through workshops, seminars, and networking events. These opportunities allow you to build valuable connections, gain insights into industry trends, and potentially find job leads.Direct interactions with industry professionals and leaders.
             Opportunities to learn about trends, gain insights, and explore potential job leads.s</p>
             <p><span>5. Job Fairs and Recruitment Drives:</span><br></br>We organize job fairs and recruitment drives specifically tailored to our diploma programs. These events bring together leading employers from various industries, giving you direct access to job opportunities and a chance to interact with potential employers face-to-face.Recruitment drives featuring leading employers.
@@ -89,10 +89,10 @@ Tips and techniques to handle even the toughest questions.
         </div>
         <div className="placement-text-wrapper">
           <h2 className="placement-title">
-          Placement Support at  BOW Aviation Training Institute
+          Placement Support at  Birds of the world Aviation Training Institute
           </h2>
           <p className="placement-description">
-          At  BOW Aviation Training Institute, we take pride in offering responsive and student-focused placement support to help our students achieve their career aspirations. Our goal is to ensure that every graduate steps confidently into their professional journey, equipped with the skills and tools to excel in competitive industries.
+          At  Birds of the world  Aviation Training Institute, we take pride in offering responsive and student-focused placement support to help our students achieve their career aspirations. Our goal is to ensure that every graduate steps confidently into their professional journey, equipped with the skills and tools to excel in competitive industries.
           </p>
         </div>
       </section>
@@ -110,7 +110,7 @@ Tips and techniques to handle even the toughest questions.
           Cross-industry Career Placement for Diploma Programs
           </h2>
           <p className="placement-description">
-          From internship placements to job fairs, our services are designed to provide a secure and supportive environment for career growth. Even after placement,  BOW Aviation Training Institute offers ongoing support to help you navigate workplace challenges and thrive in your field.Take the next step towards a rewarding career with SGACE Academy, where education meets opportunity, and success is a shared commitment
+          From internship placements to job fairs, our services are designed to provide a secure and supportive environment for career growth. Even after placement,  birds of the world Aviation Training Institute offers ongoing support to help you navigate workplace challenges and thrive in your field.Take the next step towards a rewarding career with birds of the world, where education meets opportunity, and success is a shared commitment
           </p>
         </div>
       </section>
@@ -118,8 +118,8 @@ Tips and techniques to handle even the toughest questions.
     <div className="place-detail">
     <div className="our-resposibility">
             <h4>   Our Responsibility</h4>
-            <p>At  BOW Aviation Training Institute, we are committed to your success. Our 100% job placement assistance and unwavering support reflect this commitment. We are dedicated to equipping you with the resources, guidance, and opportunities you need to achieve your career aspirations.
-              By choosing  BOW Aviation Training Institute, you’re not just pursuing education—you’re building a future with strong career prospects and professional growth. Join us and take the first step toward a fulfilling career, backed by the confidence of having our dedicated placement support by your side.</p>
+            <p>At  Birds of the world  Aviation Training Institute, we are committed to your success. Our 100% job placement assistance and unwavering support reflect this commitment. We are dedicated to equipping you with the resources, guidance, and opportunities you need to achieve your career aspirations.
+              By choosing  birds of the world Aviation Training Institute, you’re not just pursuing education—you’re building a future with strong career prospects and professional growth. Join us and take the first step toward a fulfilling career, backed by the confidence of having our dedicated placement support by your side.</p>
           </div>
     </div>
     
