@@ -74,7 +74,7 @@ const Footer = () => {
         <div className="sb_footer-below">
           <div className="sb_footer-copyright">
             <p>
-              ©2022  Birds of the world Aviation Training Institute.All Rights Reserved.
+              © 2025  Birds of the world Aviation Training Institute.All Rights Reserved.
             </p>
           </div>
           <div className="sb_footer-below-links">
