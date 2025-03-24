@@ -43,7 +43,7 @@ function EnquiryNow() {
     }
   
     try {
-      const response = await fetch("http://localhost:5000/enquiryNow/", {
+      const response = await fetch("https://api.botwavation.com/enquiryNow/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -81,7 +81,7 @@ function CourseDetails() {
     
         try {
             // Send data to backend
-            const response = await fetch("http://localhost:5000/courseDetails/", {
+            const response = await fetch("https://api.botwavation.com/courseDetails/", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

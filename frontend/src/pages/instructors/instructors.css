@@ -1,0 +1,18 @@
+.main-image-our-instructors{
+display: flex;
+}
+
+
+
+.image-our-instructors img{
+    border: 2px solid red;
+    width: 80%;
+    position: relative;
+      
+}
+
+.more-about-instructors{
+    border: 2px solid black;
+  width: 80%;
+  margin: auto;
+}

@@ -2,7 +2,7 @@
 import './Aboutus.css';
 import { useEffect } from 'react';
 import aboutbg from '../../images/aboutbg.jpg';
-
+import Instructors from '../instructors/Instructors';
 import target from "../../images/target-icon.webp";
 import doc from "../../images/document-icon.png";
 import setting from "../../images/setting-icon.webp";
@@ -87,13 +87,7 @@ const Aboutus= () => {
   
         {/* Message from Chairman Section */}
         <div className="message-chairman-section"  style={{ backgroundImage: `url(${messege})` }}>
-          <div className="message-chairman" >
-            <h2>Message from Chairman</h2>
-            <p>
-              Education is more than just acquiring knowledge—it’s about building confidence, fostering innovation, and shaping a brighter future. 
-              Birds of the world Aviation Training Institute, we’re committed to walking alongside you as you unlock your potential, overcome challenges, and achieve your ambitions.
-            </p>
-          </div>
+          <div> <Instructors/></div>
         </div>
         <div className="placement-container">
         <div className="placement-item-cc">

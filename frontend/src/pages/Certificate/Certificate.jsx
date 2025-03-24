@@ -59,7 +59,7 @@ const Certificate = () => {
     event.preventDefault();
 
     try {
-      const responce = await fetch("http://localhost:5000/certificate/", {
+      const responce = await fetch("https://api.botwavation.com/certificate/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

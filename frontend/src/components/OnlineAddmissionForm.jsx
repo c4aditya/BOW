@@ -33,7 +33,7 @@ function OnlineAddmissionForm() {
         }
 
         try {
-            const response = await fetch("http://localhost:5000/onlineAddmissionDetails/", {
+            const response = await fetch("https://api.botwavation.com/onlineAddmissionDetails/", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

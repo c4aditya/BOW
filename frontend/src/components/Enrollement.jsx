@@ -31,7 +31,7 @@ function EnrollmentForm() {
 
         try{
 
-            const responce = await fetch("http://localhost:5000/enroloment/" , {
+            const responce = await fetch("https://api.botwavation.com/enroloment/" , {
    
                  method:"POST",
                  headers:{

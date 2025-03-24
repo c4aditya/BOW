@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
-
 const Counter = () => {
   const counters = [
     { number: 456, label: 'Happy Students',suffix: ' +' },
@@ -8,10 +6,9 @@ const Counter = () => {
     { number: 97, label: 'Mock Tests' ,suffix: ' +' },
     { number: 3400, label: 'Practise Papers',suffix: ' +' },
   ];
-
   return (
     <div className="counter-group">
-      {counters.map((item, index) => (
+      {counters.map((item, index) =>(
         <CounterItem
           key={index}
           number={item.number}
@@ -29,7 +26,6 @@ const CounterItem = ({ number, label, suffix }) => {
   useEffect(() => {
     let start = 0;
     const increment = number / 50;
-
     const interval = setInterval(() => {
       start += increment;
       if (start >= number) {
@@ -39,7 +35,6 @@ const CounterItem = ({ number, label, suffix }) => {
         setDisplayNumber(Math.round(start));
       }
     }, 100);
-
     return () => clearInterval(interval);
   }, [number]);
 
