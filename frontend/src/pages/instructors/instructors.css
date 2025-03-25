@@ -1,5 +1,6 @@
 .main-image-our-instructors{
 display: flex;
+position: relative;
 }
 
 
@@ -15,4 +16,44 @@ display: flex;
     border: 2px solid black;
   width: 80%;
   margin: auto;
+
+}
+
+.social-meadia-links-instructors{
+  background-color: skyblue;
+  padding: 10px;
+  opacity: 0;
+  border: 2px solid red;
+  position: absolute;
+  top: 0;
+  transform: translateY(5%);
+  transform: translateX(5%);
+  transition:  0.4s ease-in-out, transform 0.4s ease-in-out;
+   
+}
+.social-meadia-links-instructors:hover{
+  opacity: 1;
+}
+.image-our-instructors img:hover ~ .social-meadia-links-instructors{
+  opacity: 1;
+  scale: 1;
+
+}
+.image-our-instructors:hover .social-meadia-links-instructors,
+.social-meadia-links-instructors:hover {
+  display: block;
+   transform: translateY(0%);
+   transform: translateX(80%);
+}
+
+.social-meadia-links-instructors ul li{
+  list-style: none;
+  font-size: 2rem;
+  color: white;
+}
+ 
+
+.social-meadia-links-instructors ul li svg{
+  color: white;
+  font-weight: 800;
 }
