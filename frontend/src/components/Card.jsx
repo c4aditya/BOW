@@ -26,7 +26,8 @@ function Card({id, title, description, image }) {
   };
 
   return (
-    <div>
+  
+    <div >
       <div className="cards">
         <div className="content">
           <img
@@ -47,14 +48,17 @@ function Card({id, title, description, image }) {
             )}
           </p>
           <button onClick={detailhandler} className="btn-en">Course Details </button>
+         
         </div>
-    
-      </div>
-
-    
-      
+         
+   
      
     </div>
+      </div>
+
+  
+     
+  
     
   );
 }

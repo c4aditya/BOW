@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import '@fontsource/roboto'; // Defaults to weight 400
-
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Seemore from "./components/Seemore.jsx";
+import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from "react-router-dom";
 import Home from "./components/Home";
 import Counter from "./components/Counter";
 import Card from "./components/Card";
@@ -23,8 +23,10 @@ import Contact from "./pages/contact/Contact.jsx";
 import Aboutus from "./pages/aboutus/Aboutus.jsx";
 import Refund from "./pages/refund/Refund.jsx"
 import Scroll from "./components/Autoscroll.jsx"
+// import { useNavigate } from "react-router-dom";
 function App() {
   const [getData] = useState(data);
+
 
   return (
     
@@ -55,9 +57,9 @@ function App() {
                     />
                   ))}
                 </div>
-             <div className='seemore-course'>
-             <button className='seemore-btn'>See More</button>
-              </div>
+
+                <Seemore/>
+                
               </div>
              
               <Feather /> 

@@ -30,8 +30,9 @@ function Instructors() {
 
     return (
         <div>
-            
+            <h1 className="heading-instructors">Our Instructros</h1>                
             <div className="main-image-our-instructors">
+
                 {ourInstructors.map(({ id, name, image,deg }) => (
 
                     <div>
