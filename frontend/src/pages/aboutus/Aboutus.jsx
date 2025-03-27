@@ -86,7 +86,7 @@ const Aboutus= () => {
         </div>
   
         {/* Message from Chairman Section */}
-        <div className="message-chairman-section"  style={{ backgroundImage: `url(${messege})` }}>
+        <div className="message-chairman-section">
           <div> <Instructors/></div>
         </div>
         <div className="placement-container">
